@@ -144,7 +144,7 @@ details[open] > .question::after {
 
 /* TABLET STARTS HERE */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 76.8rem) {
   body {
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-size: initial;
@@ -192,7 +192,7 @@ details[open] > .question::after {
 
 /* DESKTOP STARTS HERE */
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 14.4rem) {
   body {
     background-size: contain;
     padding: 16.75rem 42rem;
