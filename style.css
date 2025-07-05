@@ -90,7 +90,7 @@ hr {
 
 .header {
   font-family: var(--WorkSans-bold);
-  line-height: 38px;
+  line-height: 3.8rem;
   color: var(--Purple-950);
 }
 
