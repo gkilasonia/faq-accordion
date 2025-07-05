@@ -38,22 +38,22 @@ html {
 
 body {
   font-family: var(--WorkSans-regular);
-  font-size: 16px;
+  font-size: 1.6rem;
   background-color: var(--Purple-100);
   background-image: url(./assets/images/background-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100dvh;
-  padding: 130.5px 24px;
+  padding: 13.05rem 2.4rem;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
   background-color: var(--White);
-  border-radius: 8px;
-  padding: 24px;
+  border-radius: 0.8rem;
+  padding: 2.4rem;
 }
 
 img {
@@ -70,7 +70,7 @@ summary::-webkit-details-marker {
 }
 
 hr {
-  height: 1px;
+  height: 0.1rem;
   border: none;
   background-color: var(--Purple-100);
 }
@@ -80,12 +80,12 @@ hr {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .star-icon {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .header {
@@ -101,29 +101,29 @@ hr {
 .accordion-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .question {
   display: flex;
   align-items: center;
-  min-height: 30px;
+  min-height: 3rem;
   font-family: var(--WorkSans-semibold);
-  line-height: 19px;
+  line-height: 1.9rem;
   color: var(--Purple-950);
   position: relative;
-  padding-right: 54px;
+  padding-right: 5.4rem;
   cursor: pointer;
 }
 
 .question::after {
   content: "";
   position: absolute;
-  right: 0px;
+  right: 0rem;
   top: 50%;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   background-image: url("./assets/images/icon-plus.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -134,8 +134,8 @@ details[open] > .question::after {
 }
 
 .answer {
-  margin-top: 24px;
-  font-size: 14px;
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
   line-height: 150%;
   color: var(--Purple-600);
 }
@@ -149,25 +149,25 @@ details[open] > .question::after {
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-size: initial;
     background-position: center top;
-    padding: 167.5px 84px;
+    padding: 16.75rem 8.4rem;
   }
 
   main {
-    gap: 32px;
-    border-radius: 16px;
-    padding: 40px;
+    gap: 3.2rem;
+    border-radius: 1.6rem;
+    padding: 4rem;
   }
 
   /* TITLE STARTS HERE */
 
   .star-icon {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
   }
 
   .header {
-    line-height: 66px;
-    font-size: 56px;
+    line-height: 6.6rem;
+    font-size: 5.6rem;
   }
 
   /* TITLE ENDS HERE */
@@ -175,14 +175,14 @@ details[open] > .question::after {
   /* ACCORDION STARTS HERE */
 
   .question {
-    font-size: 18px;
-    line-height: 21px;
-    padding-right: 31px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-right: 3.1rem;
   }
 
   .answer {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 
   /* ACCORDION ENDS HERE */
@@ -195,7 +195,7 @@ details[open] > .question::after {
 @media only screen and (min-width: 1440px) {
   body {
     background-size: contain;
-    padding: 167.5px 420px;
+    padding: 16.75rem 42rem;
   }
 }
 
